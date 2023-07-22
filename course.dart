@@ -45,14 +45,6 @@ while (true) {
 }
 
 
-
-
-
-
-
-
-
-
 void addCourse(Map<String, String> courses) {
   print("Enter course name: ");
   String? courseName = stdin.readLineSync();

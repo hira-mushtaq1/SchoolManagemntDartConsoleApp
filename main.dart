@@ -53,6 +53,9 @@ void main() {
     if (isLoggedIn) {
       print('User login successful.');
     
+print("Welcome to our School Management System");
+
+
         print("\nMenu:");
         print("11. Manage Students");
         print("12. Manage Courses");
@@ -62,6 +65,8 @@ void main() {
         print("16.  Manage Accountant");
         print("17. Quit");
         print("Enter your choice: ");
+
+
 
 
         String? input = stdin.readLineSync();
